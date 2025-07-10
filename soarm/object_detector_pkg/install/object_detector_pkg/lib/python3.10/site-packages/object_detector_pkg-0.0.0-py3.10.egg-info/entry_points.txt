@@ -1,0 +1,5 @@
+[console_scripts]
+arm_controller = object_detector_pkg.arm_controller:main
+object_detector = object_detector_pkg.object_detector:main
+test_arm_actions = object_detector_pkg.scripts.test_arm_actions:main
+

@@ -1,0 +1,34 @@
+[4.619s] Invoking command in '/root/soarm/object_detector_pkg': PYTHONPATH=/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detector_pkg build --build-base /root/soarm/object_detector_pkg/build/object_detector_pkg/build install --record /root/soarm/object_detector_pkg/build/object_detector_pkg/install.log --single-version-externally-managed install_data
+[5.952s] Traceback (most recent call last):
+[5.953s]   File "/root/soarm/object_detector_pkg/setup.py", line 1, in <module>
+[5.953s]     from setuptools import find_packages, setup
+[5.954s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[5.954s]     import setuptools.version
+[5.955s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[5.955s]     import pkg_resources
+[5.956s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[5.956s]     def _initialize_master_working_set():
+[5.957s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[5.957s]     f(*args, **kwargs)
+[5.958s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set
+[5.960s]     list(map(working_set.add_entry, sys.path))
+[5.962s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[5.962s]     for dist in find_distributions(entry, True):
+[5.963s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[5.964s]     for dist in factory(fullpath):
+[5.965s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[5.965s]     yield Distribution.from_location(
+[5.966s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location
+[5.966s]     return cls(
+[5.967s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__
+[5.968s]     self._version = safe_version(version)
+[5.968s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+[5.969s]     return str(packaging.version.Version(version))
+[5.970s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 281, in __init__
+[5.970s]     self._key = _cmpkey(
+[5.971s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 459, in _cmpkey
+[5.971s]     reversed(list(itertools.dropwhile(lambda x: x == 0, reversed(release))))
+[5.972s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 459, in <lambda>
+[5.972s]     reversed(list(itertools.dropwhile(lambda x: x == 0, reversed(release))))
+[5.973s] KeyboardInterrupt
+[6.109s] Invoked command in '/root/soarm/object_detector_pkg' returned '-2': PYTHONPATH=/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detector_pkg build --build-base /root/soarm/object_detector_pkg/build/object_detector_pkg/build install --record /root/soarm/object_detector_pkg/build/object_detector_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,30 @@
+[8.190s] Invoking command in '/root/soarm/object_detector_pkg': PYTHONPATH=/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detector_pkg build --build-base /root/soarm/object_detector_pkg/build/object_detector_pkg/build install --record /root/soarm/object_detector_pkg/build/object_detector_pkg/install.log --single-version-externally-managed install_data
+[10.587s] running egg_info
+[10.590s] writing build/object_detector_pkg/object_detector_pkg.egg-info/PKG-INFO
+[10.594s] writing dependency_links to build/object_detector_pkg/object_detector_pkg.egg-info/dependency_links.txt
+[10.597s] writing entry points to build/object_detector_pkg/object_detector_pkg.egg-info/entry_points.txt
+[10.599s] writing requirements to build/object_detector_pkg/object_detector_pkg.egg-info/requires.txt
+[10.602s] writing top-level names to build/object_detector_pkg/object_detector_pkg.egg-info/top_level.txt
+[10.617s] reading manifest file 'build/object_detector_pkg/object_detector_pkg.egg-info/SOURCES.txt'
+[10.626s] writing manifest file 'build/object_detector_pkg/object_detector_pkg.egg-info/SOURCES.txt'
+[10.627s] running build
+[10.628s] running build_py
+[10.629s] copying object_detector_pkg/object_detector.py -> /root/soarm/object_detector_pkg/build/object_detector_pkg/build/lib/object_detector_pkg
+[10.630s] copying object_detector_pkg/arm_controller.py -> /root/soarm/object_detector_pkg/build/object_detector_pkg/build/lib/object_detector_pkg
+[10.633s] running install
+[10.635s] running install_lib
+[10.640s] copying /root/soarm/object_detector_pkg/build/object_detector_pkg/build/lib/object_detector_pkg/object_detector.py -> /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg
+[10.641s] copying /root/soarm/object_detector_pkg/build/object_detector_pkg/build/lib/object_detector_pkg/arm_controller.py -> /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg
+[10.652s] byte-compiling /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg/object_detector.py to object_detector.cpython-310.pyc
+[10.661s] byte-compiling /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg/arm_controller.py to arm_controller.cpython-310.pyc
+[10.688s] running install_data
+[10.689s] copying config/arm_actions.yaml -> /root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/config
+[10.691s] running install_egg_info
+[10.703s] removing '/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[10.704s] Copying build/object_detector_pkg/object_detector_pkg.egg-info to /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg-0.0.0-py3.10.egg-info
+[10.713s] running install_scripts
+[10.851s] Installing arm_controller script to /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/object_detector_pkg
+[10.852s] Installing object_detector script to /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/object_detector_pkg
+[10.853s] Installing test_arm_actions script to /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/object_detector_pkg
+[10.856s] writing list of installed files to '/root/soarm/object_detector_pkg/build/object_detector_pkg/install.log'
+[11.108s] Invoked command in '/root/soarm/object_detector_pkg' returned '0': PYTHONPATH=/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detector_pkg build --build-base /root/soarm/object_detector_pkg/build/object_detector_pkg/build install --record /root/soarm/object_detector_pkg/build/object_detector_pkg/install.log --single-version-externally-managed install_data

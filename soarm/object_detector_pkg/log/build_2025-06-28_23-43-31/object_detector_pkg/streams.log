@@ -1,0 +1,32 @@
+[4.927s] Invoking command in '/root/soarm/object_detector_pkg': PYTHONPATH=/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detector_pkg build --build-base /root/soarm/object_detector_pkg/build/object_detector_pkg/build install --record /root/soarm/object_detector_pkg/build/object_detector_pkg/install.log --single-version-externally-managed install_data
+[6.496s] Traceback (most recent call last):
+[6.498s]   File "/root/soarm/object_detector_pkg/setup.py", line 1, in <module>
+[6.498s]     from setuptools import find_packages, setup
+[6.499s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 242, in <module>
+[6.500s]     monkey.patch_all()
+[6.501s]   File "/usr/lib/python3/dist-packages/setuptools/monkey.py", line 99, in patch_all
+[6.501s]     patch_for_msvc_specialized_compiler()
+[6.502s]   File "/usr/lib/python3/dist-packages/setuptools/monkey.py", line 136, in patch_for_msvc_specialized_compiler
+[6.502s]     msvc = import_module('setuptools.msvc')
+[6.503s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[6.504s]     return _bootstrap._gcd_import(name[level:], package, level)
+[6.504s]   File "/usr/lib/python3/dist-packages/setuptools/msvc.py", line 22, in <module>
+[6.505s]     import json
+[6.505s]   File "/usr/lib/python3.10/json/__init__.py", line 106, in <module>
+[6.506s]     from .decoder import JSONDecoder, JSONDecodeError
+[6.506s]   File "/usr/lib/python3.10/json/decoder.py", line 5, in <module>
+[6.507s]     from json import scanner
+[6.507s]   File "/usr/lib/python3.10/json/scanner.py", line 13, in <module>
+[6.508s]     (re.VERBOSE | re.MULTILINE | re.DOTALL))
+[6.509s]   File "/usr/lib/python3.10/enum.py", line 983, in __or__
+[6.509s]     result = self.__class__(self._value_ | self.__class__(other)._value_)
+[6.510s]   File "/usr/lib/python3.10/enum.py", line 385, in __call__
+[6.511s]     return cls.__new__(cls, value)
+[6.512s]   File "/usr/lib/python3.10/enum.py", line 700, in __new__
+[6.512s]     result = cls._missing_(value)
+[6.513s]   File "/usr/lib/python3.10/enum.py", line 944, in _missing_
+[6.514s]     new_member = cls._create_pseudo_member_(value)
+[6.514s]   File "/usr/lib/python3.10/enum.py", line 977, in _create_pseudo_member_
+[6.515s]     pseudo_member = cls._value2member_map_.setdefault(value, pseudo_member)
+[6.515s] KeyboardInterrupt
+[6.677s] Invoked command in '/root/soarm/object_detector_pkg' returned '-2': PYTHONPATH=/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detector_pkg build --build-base /root/soarm/object_detector_pkg/build/object_detector_pkg/build install --record /root/soarm/object_detector_pkg/build/object_detector_pkg/install.log --single-version-externally-managed install_data

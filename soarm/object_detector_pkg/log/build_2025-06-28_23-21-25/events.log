@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.001349] (object_detector_pkg) JobQueued: {'identifier': 'object_detector_pkg', 'dependencies': OrderedDict()}
+[0.002441] (object_detector_pkg) JobStarted: {'identifier': 'object_detector_pkg'}
+[0.098975] (-) TimerEvent: {}
+[0.200065] (-) TimerEvent: {}
+[0.300891] (-) TimerEvent: {}
+[0.401787] (-) TimerEvent: {}
+[0.502623] (-) TimerEvent: {}
+[0.603464] (-) TimerEvent: {}
+[0.704393] (-) TimerEvent: {}
+[0.805361] (-) TimerEvent: {}
+[0.906303] (-) TimerEvent: {}
+[1.007149] (-) TimerEvent: {}
+[1.107994] (-) TimerEvent: {}
+[1.208823] (-) TimerEvent: {}
+[1.309698] (-) TimerEvent: {}
+[1.410534] (-) TimerEvent: {}
+[1.511468] (-) TimerEvent: {}
+[1.612532] (-) TimerEvent: {}
+[1.713342] (-) TimerEvent: {}
+[1.814170] (-) TimerEvent: {}
+[1.915145] (-) TimerEvent: {}
+[2.017580] (-) TimerEvent: {}
+[2.120348] (-) TimerEvent: {}
+[2.221180] (-) TimerEvent: {}
+[2.322037] (-) TimerEvent: {}
+[2.423009] (-) TimerEvent: {}
+[2.523849] (-) TimerEvent: {}
+[2.624915] (-) TimerEvent: {}
+[2.726050] (-) TimerEvent: {}
+[2.826869] (-) TimerEvent: {}
+[2.927690] (-) TimerEvent: {}
+[3.028510] (-) TimerEvent: {}
+[3.129302] (-) TimerEvent: {}
+[3.230417] (-) TimerEvent: {}
+[3.331280] (-) TimerEvent: {}
+[3.432134] (-) TimerEvent: {}
+[3.532978] (-) TimerEvent: {}
+[3.633889] (-) TimerEvent: {}
+[3.734791] (-) TimerEvent: {}
+[3.835817] (-) TimerEvent: {}
+[3.936847] (-) TimerEvent: {}
+[4.037737] (-) TimerEvent: {}
+[4.138837] (-) TimerEvent: {}
+[4.239602] (-) TimerEvent: {}
+[4.340484] (-) TimerEvent: {}
+[4.441409] (-) TimerEvent: {}
+[4.542290] (-) TimerEvent: {}
+[4.617967] (object_detector_pkg) Command: {'cmd': ['/usr/bin/python', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/object_detector_pkg', 'build', '--build-base', '/root/soarm/object_detector_pkg/build/object_detector_pkg/build', 'install', '--record', '/root/soarm/object_detector_pkg/build/object_detector_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/soarm/object_detector_pkg', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.127.30 52785 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'CONDA_SHLVL': '0', 'OLDPWD': '/root/soarm', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-455115fe-a07b-4d47-837d-b2ba25aadd0c.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/root/soarm/object_detector_pkg/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/root/miniconda3/condabin:/usr/hobot/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/soarm/object_detector_pkg/install/object_detector_pkg:/opt/tros/humble:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'SHELL': '/bin/bash', 'PWD': '/root/soarm/object_detector_pkg/build/object_detector_pkg', 'CONDA_EXE': '/root/miniconda3/bin/conda', 'SSH_CONNECTION': '192.168.127.30 52785 192.168.127.10 22', 'PYTHONPATH': '/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/soarm/object_detector_pkg/install/object_detector_pkg'}, 'shell': False}
+[4.642518] (-) TimerEvent: {}
+[4.743469] (-) TimerEvent: {}
+[4.844258] (-) TimerEvent: {}
+[4.945181] (-) TimerEvent: {}
+[5.046109] (-) TimerEvent: {}
+[5.147221] (-) TimerEvent: {}
+[5.248578] (-) TimerEvent: {}
+[5.349513] (-) TimerEvent: {}
+[5.450349] (-) TimerEvent: {}
+[5.551175] (-) TimerEvent: {}
+[5.652058] (-) TimerEvent: {}
+[5.753438] (-) TimerEvent: {}
+[5.854241] (-) TimerEvent: {}
+[5.953341] (object_detector_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.955167] (-) TimerEvent: {}
+[5.955620] (object_detector_pkg) StderrLine: {'line': b'  File "/root/soarm/object_detector_pkg/setup.py", line 1, in <module>\n'}
+[5.956267] (object_detector_pkg) StderrLine: {'line': b'    from setuptools import find_packages, setup\n'}
+[5.956747] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[5.957192] (object_detector_pkg) StderrLine: {'line': b'    import setuptools.version\n'}
+[5.957638] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[5.958093] (object_detector_pkg) StderrLine: {'line': b'    import pkg_resources\n'}
+[5.958536] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[5.959153] (object_detector_pkg) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[5.959620] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[5.960109] (object_detector_pkg) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[5.960630] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set\n'}
+[5.961719] (object_detector_pkg) StderrLine: {'line': b'    list(map(working_set.add_entry, sys.path))\n'}
+[5.963941] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n'}
+[5.965034] (object_detector_pkg) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[5.965676] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path\n'}
+[5.966315] (object_detector_pkg) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[5.967336] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata\n'}
+[5.967902] (object_detector_pkg) StderrLine: {'line': b'    yield Distribution.from_location(\n'}
+[5.968462] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location\n'}
+[5.969169] (object_detector_pkg) StderrLine: {'line': b'    return cls(\n'}
+[5.969693] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__\n'}
+[5.970696] (object_detector_pkg) StderrLine: {'line': b'    self._version = safe_version(version)\n'}
+[5.971173] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version\n'}
+[5.971797] (object_detector_pkg) StderrLine: {'line': b'    return str(packaging.version.Version(version))\n'}
+[5.972397] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 281, in __init__\n'}
+[5.972957] (object_detector_pkg) StderrLine: {'line': b'    self._key = _cmpkey(\n'}
+[5.973602] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 459, in _cmpkey\n'}
+[5.974131] (object_detector_pkg) StderrLine: {'line': b'    reversed(list(itertools.dropwhile(lambda x: x == 0, reversed(release))))\n'}
+[5.974638] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 459, in <lambda>\n'}
+[5.975129] (object_detector_pkg) StderrLine: {'line': b'    reversed(list(itertools.dropwhile(lambda x: x == 0, reversed(release))))\n'}
+[5.975633] (object_detector_pkg) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[6.055405] (-) TimerEvent: {}
+[6.111400] (object_detector_pkg) CommandEnded: {'returncode': -2}
+[6.113407] (object_detector_pkg) JobEnded: {'identifier': 'object_detector_pkg', 'rc': 'SIGINT'}
+[6.128428] (-) EventReactorShutdown: {}

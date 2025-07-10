@@ -1,0 +1,87 @@
+[0.989s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/local/bin/colcon', 'build', '--packages-select', 'object_detector_pkg'][0m
+[0.990s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['object_detector_pkg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff829ec8b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff82baece0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff82baece0>>)[0m
+[2.132s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[2.132s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[2.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[2.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[2.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[2.134s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[2.134s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/root/soarm/object_detector_pkg'
+[2.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[2.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[2.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[2.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[2.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[2.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[2.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[2.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[2.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'ros.ament_python' and name 'object_detector_pkg'[0m
+[2.232s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[2.233s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[2.233s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[2.233s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[2.234s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[2.330s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'cmake_args' from command line to 'None'
+[2.330s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'cmake_target' from command line to 'None'
+[2.330s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'object_detector_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.332s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'object_detector_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/soarm/object_detector_pkg/build/object_detector_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/soarm/object_detector_pkg/install/object_detector_pkg', 'merge_install': False, 'path': '/root/soarm/object_detector_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[2.333s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[2.338s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[2.339s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/root/soarm/object_detector_pkg' with build type 'ament_python'
+[2.340s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('object_detector_pkg', 'ament_prefix_path')
+[2.351s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.353s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/hook/ament_prefix_path.ps1'
+[2.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/hook/ament_prefix_path.dsv'
+[2.359s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/hook/ament_prefix_path.sh'
+[2.365s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.365s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[4.326s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/root/soarm/object_detector_pkg'
+[4.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.329s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.019s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/soarm/object_detector_pkg': PYTHONPATH=/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detector_pkg build --build-base /root/soarm/object_detector_pkg/build/object_detector_pkg/build install --record /root/soarm/object_detector_pkg/build/object_detector_pkg/install.log --single-version-externally-managed install_data[0m
+[8.994s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/soarm/object_detector_pkg' returned '0': PYTHONPATH=/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detector_pkg build --build-base /root/soarm/object_detector_pkg/build/object_detector_pkg/build install --record /root/soarm/object_detector_pkg/build/object_detector_pkg/install.log --single-version-externally-managed install_data[0m
+[9.019s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/soarm/object_detector_pkg/install/object_detector_pkg' for CMake module files
+[9.025s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/soarm/object_detector_pkg/install/object_detector_pkg' for CMake config files
+[9.031s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/soarm/object_detector_pkg/install/object_detector_pkg/lib'
+[9.032s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/soarm/object_detector_pkg/install/object_detector_pkg/bin'
+[9.033s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/pkgconfig/object_detector_pkg.pc'
+[9.035s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages'
+[9.035s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('object_detector_pkg', 'pythonpath')
+[9.037s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/hook/pythonpath.ps1'
+[9.040s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/hook/pythonpath.dsv'
+[9.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/hook/pythonpath.sh'
+[9.046s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/soarm/object_detector_pkg/install/object_detector_pkg/bin'
+[9.046s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(object_detector_pkg)
+[9.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/package.ps1'
+[9.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/package.dsv'
+[9.057s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/package.sh'
+[9.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/package.bash'
+[9.068s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/package.zsh'
+[9.072s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/soarm/object_detector_pkg/install/object_detector_pkg/share/colcon-core/packages/object_detector_pkg)
+[9.074s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[9.075s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[9.076s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[9.076s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[9.119s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.120s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.121s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.121s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[34.124s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.[0m
+[34.125s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[34.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/soarm/object_detector_pkg/install/local_setup.ps1'
+[34.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/root/soarm/object_detector_pkg/install/_local_setup_util_ps1.py'
+[34.156s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/soarm/object_detector_pkg/install/setup.ps1'
+[34.164s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/soarm/object_detector_pkg/install/local_setup.sh'
+[34.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/root/soarm/object_detector_pkg/install/_local_setup_util_sh.py'
+[34.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/soarm/object_detector_pkg/install/setup.sh'
+[34.180s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/soarm/object_detector_pkg/install/local_setup.bash'
+[34.184s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/soarm/object_detector_pkg/install/setup.bash'
+[34.191s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/soarm/object_detector_pkg/install/local_setup.zsh'
+[34.194s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/soarm/object_detector_pkg/install/setup.zsh'

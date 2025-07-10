@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001610] (object_detector_pkg) JobQueued: {'identifier': 'object_detector_pkg', 'dependencies': OrderedDict()}
+[0.003003] (object_detector_pkg) JobStarted: {'identifier': 'object_detector_pkg'}
+[0.098818] (-) TimerEvent: {}
+[0.199725] (-) TimerEvent: {}
+[0.300613] (-) TimerEvent: {}
+[0.401554] (-) TimerEvent: {}
+[0.502876] (-) TimerEvent: {}
+[0.603760] (-) TimerEvent: {}
+[0.704612] (-) TimerEvent: {}
+[0.805480] (-) TimerEvent: {}
+[0.906585] (-) TimerEvent: {}
+[1.007501] (-) TimerEvent: {}
+[1.108324] (-) TimerEvent: {}
+[1.209199] (-) TimerEvent: {}
+[1.310178] (-) TimerEvent: {}
+[1.411019] (-) TimerEvent: {}
+[1.511953] (-) TimerEvent: {}
+[1.613212] (-) TimerEvent: {}
+[1.714073] (-) TimerEvent: {}
+[1.815023] (-) TimerEvent: {}
+[1.916825] (-) TimerEvent: {}
+[2.017767] (-) TimerEvent: {}
+[2.119824] (-) TimerEvent: {}
+[2.220749] (-) TimerEvent: {}
+[2.321741] (-) TimerEvent: {}
+[2.422571] (-) TimerEvent: {}
+[2.523533] (-) TimerEvent: {}
+[2.624670] (-) TimerEvent: {}
+[2.725810] (-) TimerEvent: {}
+[2.826684] (-) TimerEvent: {}
+[2.927539] (-) TimerEvent: {}
+[3.028454] (-) TimerEvent: {}
+[3.129296] (-) TimerEvent: {}
+[3.230376] (-) TimerEvent: {}
+[3.331429] (-) TimerEvent: {}
+[3.432271] (-) TimerEvent: {}
+[3.533070] (-) TimerEvent: {}
+[3.633885] (-) TimerEvent: {}
+[3.734750] (-) TimerEvent: {}
+[3.835610] (-) TimerEvent: {}
+[3.936530] (-) TimerEvent: {}
+[4.037397] (-) TimerEvent: {}
+[4.138245] (-) TimerEvent: {}
+[4.239030] (-) TimerEvent: {}
+[4.339871] (-) TimerEvent: {}
+[4.440860] (-) TimerEvent: {}
+[4.541752] (-) TimerEvent: {}
+[4.642595] (-) TimerEvent: {}
+[4.743666] (-) TimerEvent: {}
+[4.844590] (-) TimerEvent: {}
+[4.916372] (object_detector_pkg) Command: {'cmd': ['/usr/bin/python', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/object_detector_pkg', 'build', '--build-base', '/root/soarm/object_detector_pkg/build/object_detector_pkg/build', 'install', '--record', '/root/soarm/object_detector_pkg/build/object_detector_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/soarm/object_detector_pkg', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.127.30 52785 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'CONDA_SHLVL': '0', 'OLDPWD': '/root/soarm', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-455115fe-a07b-4d47-837d-b2ba25aadd0c.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/root/soarm/object_detector_pkg/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/root/miniconda3/condabin:/usr/hobot/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/soarm/object_detector_pkg/install/object_detector_pkg:/opt/tros/humble:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'SHELL': '/bin/bash', 'PWD': '/root/soarm/object_detector_pkg/build/object_detector_pkg', 'CONDA_EXE': '/root/miniconda3/bin/conda', 'SSH_CONNECTION': '192.168.127.30 52785 192.168.127.10 22', 'PYTHONPATH': '/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/soarm/object_detector_pkg/install/object_detector_pkg'}, 'shell': False}
+[4.944724] (-) TimerEvent: {}
+[5.045612] (-) TimerEvent: {}
+[5.147026] (-) TimerEvent: {}
+[5.247928] (-) TimerEvent: {}
+[5.348838] (-) TimerEvent: {}
+[5.449782] (-) TimerEvent: {}
+[5.550723] (-) TimerEvent: {}
+[5.651581] (-) TimerEvent: {}
+[5.752445] (-) TimerEvent: {}
+[5.853573] (-) TimerEvent: {}
+[5.954420] (-) TimerEvent: {}
+[6.055200] (-) TimerEvent: {}
+[6.156029] (-) TimerEvent: {}
+[6.257191] (-) TimerEvent: {}
+[6.358167] (-) TimerEvent: {}
+[6.459133] (-) TimerEvent: {}
+[6.497659] (object_detector_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.500618] (object_detector_pkg) StderrLine: {'line': b'  File "/root/soarm/object_detector_pkg/setup.py", line 1, in <module>\n'}
+[6.501597] (object_detector_pkg) StderrLine: {'line': b'    from setuptools import find_packages, setup\n'}
+[6.502534] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 242, in <module>\n'}
+[6.503361] (object_detector_pkg) StderrLine: {'line': b'    monkey.patch_all()\n'}
+[6.504199] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/monkey.py", line 99, in patch_all\n'}
+[6.504746] (object_detector_pkg) StderrLine: {'line': b'    patch_for_msvc_specialized_compiler()\n'}
+[6.505249] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/monkey.py", line 136, in patch_for_msvc_specialized_compiler\n'}
+[6.505903] (object_detector_pkg) StderrLine: {'line': b"    msvc = import_module('setuptools.msvc')\n"}
+[6.506411] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module\n'}
+[6.507071] (object_detector_pkg) StderrLine: {'line': b'    return _bootstrap._gcd_import(name[level:], package, level)\n'}
+[6.507532] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/msvc.py", line 22, in <module>\n'}
+[6.508126] (object_detector_pkg) StderrLine: {'line': b'    import json\n'}
+[6.508606] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/json/__init__.py", line 106, in <module>\n'}
+[6.509102] (object_detector_pkg) StderrLine: {'line': b'    from .decoder import JSONDecoder, JSONDecodeError\n'}
+[6.509586] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/json/decoder.py", line 5, in <module>\n'}
+[6.510041] (object_detector_pkg) StderrLine: {'line': b'    from json import scanner\n'}
+[6.510678] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/json/scanner.py", line 13, in <module>\n'}
+[6.511383] (object_detector_pkg) StderrLine: {'line': b'    (re.VERBOSE | re.MULTILINE | re.DOTALL))\n'}
+[6.511999] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/enum.py", line 983, in __or__\n'}
+[6.512457] (object_detector_pkg) StderrLine: {'line': b'    result = self.__class__(self._value_ | self.__class__(other)._value_)\n'}
+[6.513049] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/enum.py", line 385, in __call__\n'}
+[6.513957] (object_detector_pkg) StderrLine: {'line': b'    return cls.__new__(cls, value)\n'}
+[6.514912] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/enum.py", line 700, in __new__\n'}
+[6.515749] (object_detector_pkg) StderrLine: {'line': b'    result = cls._missing_(value)\n'}
+[6.516385] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/enum.py", line 944, in _missing_\n'}
+[6.517053] (object_detector_pkg) StderrLine: {'line': b'    new_member = cls._create_pseudo_member_(value)\n'}
+[6.517683] (object_detector_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/enum.py", line 977, in _create_pseudo_member_\n'}
+[6.518277] (object_detector_pkg) StderrLine: {'line': b'    pseudo_member = cls._value2member_map_.setdefault(value, pseudo_member)\n'}
+[6.518864] (object_detector_pkg) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[6.559365] (-) TimerEvent: {}
+[6.660378] (-) TimerEvent: {}
+[6.679430] (object_detector_pkg) CommandEnded: {'returncode': -2}
+[6.681795] (object_detector_pkg) JobEnded: {'identifier': 'object_detector_pkg', 'rc': 'SIGINT'}
+[6.691621] (-) EventReactorShutdown: {}

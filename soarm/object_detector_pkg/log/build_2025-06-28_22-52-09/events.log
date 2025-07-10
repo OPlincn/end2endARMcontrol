@@ -1,0 +1,23 @@
+[0.000000] (-) TimerEvent: {}
+[0.001397] (object_detector_pkg) JobQueued: {'identifier': 'object_detector_pkg', 'dependencies': OrderedDict()}
+[0.002713] (object_detector_pkg) JobStarted: {'identifier': 'object_detector_pkg'}
+[0.098796] (-) TimerEvent: {}
+[0.199651] (-) TimerEvent: {}
+[0.300580] (-) TimerEvent: {}
+[0.401473] (-) TimerEvent: {}
+[0.502630] (-) TimerEvent: {}
+[0.605457] (-) TimerEvent: {}
+[0.706535] (-) TimerEvent: {}
+[0.808012] (-) TimerEvent: {}
+[0.908880] (-) TimerEvent: {}
+[1.009717] (-) TimerEvent: {}
+[1.110565] (-) TimerEvent: {}
+[1.211459] (-) TimerEvent: {}
+[1.312285] (-) TimerEvent: {}
+[1.413123] (-) TimerEvent: {}
+[1.514031] (-) TimerEvent: {}
+[1.614849] (-) TimerEvent: {}
+[1.715626] (-) TimerEvent: {}
+[1.816449] (-) TimerEvent: {}
+[1.885338] (object_detector_pkg) JobEnded: {'identifier': 'object_detector_pkg', 'rc': 0}
+[1.889703] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.001945] (object_detector_pkg) JobQueued: {'identifier': 'object_detector_pkg', 'dependencies': OrderedDict()}
+[0.002728] (object_detector_pkg) JobStarted: {'identifier': 'object_detector_pkg'}
+[0.098739] (-) TimerEvent: {}
+[0.199524] (-) TimerEvent: {}
+[0.300316] (-) TimerEvent: {}
+[0.401108] (-) TimerEvent: {}
+[0.424230] (object_detector_pkg) JobEnded: {'identifier': 'object_detector_pkg', 'rc': 0}
+[0.428436] (-) EventReactorShutdown: {}

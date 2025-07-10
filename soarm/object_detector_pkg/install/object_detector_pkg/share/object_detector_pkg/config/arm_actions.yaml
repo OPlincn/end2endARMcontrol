@@ -1,0 +1,82 @@
+# 机械臂动作配置文件
+# 坐标格式: [x, y, z, roll, pitch, yaw]
+
+actions:
+  # 0: 抓取状态（默认home位置）
+  grab_home:
+    position: [0.20, 0.0, 0.13, -1.57, 1.4, 0]
+    gripper_closed: false
+    duration: 2.0
+    
+  # 1: 跳舞动作序列
+  dance:
+    sequence:
+      - position: [0.1, 0.1, 0.1, -1.57, 1.0, 0]
+        gripper_closed: false
+        duration: 1.0
+      - position: [0.1, -0.1, 0.1, -1.57, 1.0, 0]
+        gripper_closed: false
+        duration: 1.0
+      - position: [0.2, 0.0, 0.1, -1.57, 0.5, 0]
+        gripper_closed: true
+        duration: 1.0
+      - position: [0.15, 0.0, 0.1, -1.57, 1.5, 0]
+        gripper_closed: false
+        duration: 1.0
+      - position: [0.20, 0.0, 0.13, -1.57, 1.4, 0]
+        gripper_closed: false
+        duration: 1.0
+    repeat: 2
+    
+  # 2: 左看
+  look_left:
+    position: [0.05, 0.18, 0.15, -1.57, -0.3, 0]
+    gripper_closed: true
+    duration: 3.0
+    
+  # 3: 右看
+  look_right:
+    position: [0.05, -0.18, 0.15, -1.57, -0.3, 0]
+    gripper_closed: true
+    duration: 3.0
+    
+  # 4: 握手动作
+  handshake:
+    sequence:
+      - position: [0.23, 0.0, 0.25, -1.57, 0.0, 0]
+        gripper_closed: false
+        duration: 3.0
+      - position: [0.23, 0.00, 0.10, -1.57, 0.0, 0]
+        gripper_closed: true
+        duration: 3.0
+      - position: [0.23, 0.0, 0.25, -1.57, 0.0, 0]
+        gripper_closed: false
+        duration: 3.0
+      - position: [0.23, 0.00, 0.10, -1.57, 0.0, 0]
+        gripper_closed: true
+        duration: 3.0
+      - position: [0.23, 0.0, 0.25, -1.57, 0.0, 0]
+        gripper_closed: false
+        duration: 3.0
+      - position: [0.23, 0.00, 0.10, -1.57, -0.0, 0]
+        gripper_closed: false
+        duration: 2.0
+    repeat: 1
+    
+  # 5: 向前看
+  look_forward:
+    position: [0.25, 0.0, 0.18, -1.57, -0.3, 0]
+    gripper_closed: false
+    duration: 3.0
+
+# 放置位置配置
+drop_position:
+  x: 0.05
+  y: -0.15
+  z: 0.14
+
+# 运动控制参数
+motion_params:
+  angle_speed: 0.015  # 基座角度变化速度
+  position_tolerance: 0.02  # 位置到达容差
+  grab_tolerance: 0.01  # 抓取位置容差

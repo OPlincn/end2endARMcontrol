@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.004148] (object_detector_pkg) JobQueued: {'identifier': 'object_detector_pkg', 'dependencies': OrderedDict()}
+[0.011827] (object_detector_pkg) JobStarted: {'identifier': 'object_detector_pkg'}
+[0.099934] (-) TimerEvent: {}
+[0.200766] (-) TimerEvent: {}
+[0.301735] (-) TimerEvent: {}
+[0.403119] (-) TimerEvent: {}
+[0.504003] (-) TimerEvent: {}
+[0.611513] (-) TimerEvent: {}
+[0.712465] (-) TimerEvent: {}
+[0.813546] (-) TimerEvent: {}
+[0.914494] (-) TimerEvent: {}
+[1.015474] (-) TimerEvent: {}
+[1.116385] (-) TimerEvent: {}
+[1.217231] (-) TimerEvent: {}
+[1.318129] (-) TimerEvent: {}
+[1.419064] (-) TimerEvent: {}
+[1.526029] (-) TimerEvent: {}
+[1.627394] (-) TimerEvent: {}
+[1.728206] (-) TimerEvent: {}
+[1.829051] (-) TimerEvent: {}
+[1.929900] (-) TimerEvent: {}
+[2.030759] (-) TimerEvent: {}
+[2.131724] (-) TimerEvent: {}
+[2.232597] (-) TimerEvent: {}
+[2.333839] (-) TimerEvent: {}
+[2.434879] (-) TimerEvent: {}
+[2.535990] (-) TimerEvent: {}
+[2.636807] (-) TimerEvent: {}
+[2.738439] (-) TimerEvent: {}
+[2.840849] (-) TimerEvent: {}
+[2.941707] (-) TimerEvent: {}
+[3.042602] (-) TimerEvent: {}
+[3.143570] (-) TimerEvent: {}
+[3.244452] (-) TimerEvent: {}
+[3.353461] (-) TimerEvent: {}
+[3.454779] (-) TimerEvent: {}
+[3.555807] (-) TimerEvent: {}
+[3.657746] (-) TimerEvent: {}
+[3.758657] (-) TimerEvent: {}
+[3.859528] (-) TimerEvent: {}
+[3.960446] (-) TimerEvent: {}
+[4.061357] (-) TimerEvent: {}
+[4.162343] (-) TimerEvent: {}
+[4.263409] (-) TimerEvent: {}
+[4.364372] (-) TimerEvent: {}
+[4.465282] (-) TimerEvent: {}
+[4.566182] (-) TimerEvent: {}
+[4.667115] (-) TimerEvent: {}
+[4.768375] (-) TimerEvent: {}
+[4.869960] (-) TimerEvent: {}
+[4.970797] (-) TimerEvent: {}
+[5.071720] (-) TimerEvent: {}
+[5.172532] (-) TimerEvent: {}
+[5.273446] (-) TimerEvent: {}
+[5.374324] (-) TimerEvent: {}
+[5.475269] (-) TimerEvent: {}
+[5.576170] (-) TimerEvent: {}
+[5.677023] (-) TimerEvent: {}
+[5.777940] (-) TimerEvent: {}
+[5.878986] (-) TimerEvent: {}
+[5.979910] (-) TimerEvent: {}
+[6.080857] (-) TimerEvent: {}
+[6.181766] (-) TimerEvent: {}
+[6.282785] (-) TimerEvent: {}
+[6.383790] (-) TimerEvent: {}
+[6.484734] (-) TimerEvent: {}
+[7.259698] (-) TimerEvent: {}
+[7.360738] (-) TimerEvent: {}
+[7.461701] (-) TimerEvent: {}
+[7.562740] (-) TimerEvent: {}
+[7.664429] (-) TimerEvent: {}
+[7.765364] (-) TimerEvent: {}
+[7.866300] (-) TimerEvent: {}
+[7.967248] (-) TimerEvent: {}
+[8.068779] (-) TimerEvent: {}
+[8.169690] (-) TimerEvent: {}
+[8.199302] (object_detector_pkg) Command: {'cmd': ['/usr/bin/python', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/object_detector_pkg', 'build', '--build-base', '/root/soarm/object_detector_pkg/build/object_detector_pkg/build', 'install', '--record', '/root/soarm/object_detector_pkg/build/object_detector_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/soarm/object_detector_pkg', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.166.245 49497 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root/soarm', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-103263e3-3288-4ae5-bc98-5ded225bf87f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/root/soarm/object_detector_pkg/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/0', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-253fc5da1e178375.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-32d71fd2b8.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/soarm/object_detector_pkg/install/object_detector_pkg:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/soarm/object_detector_pkg/build/object_detector_pkg', 'SSH_CONNECTION': '192.168.166.245 49497 192.168.166.251 22', 'PYTHONPATH': '/root/soarm/object_detector_pkg/build/object_detector_pkg/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.269896] (-) TimerEvent: {}
+[8.370820] (-) TimerEvent: {}
+[8.471698] (-) TimerEvent: {}
+[8.572679] (-) TimerEvent: {}
+[8.673662] (-) TimerEvent: {}
+[8.774636] (-) TimerEvent: {}
+[8.875617] (-) TimerEvent: {}
+[8.976462] (-) TimerEvent: {}
+[9.077326] (-) TimerEvent: {}
+[9.178342] (-) TimerEvent: {}
+[9.279208] (-) TimerEvent: {}
+[9.390547] (-) TimerEvent: {}
+[9.491453] (-) TimerEvent: {}
+[9.593273] (-) TimerEvent: {}
+[9.694106] (-) TimerEvent: {}
+[9.794979] (-) TimerEvent: {}
+[9.895831] (-) TimerEvent: {}
+[9.996902] (-) TimerEvent: {}
+[10.097778] (-) TimerEvent: {}
+[10.200951] (-) TimerEvent: {}
+[10.301873] (-) TimerEvent: {}
+[10.402922] (-) TimerEvent: {}
+[10.503782] (-) TimerEvent: {}
+[10.599336] (object_detector_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.602252] (object_detector_pkg) StdoutLine: {'line': b'writing build/object_detector_pkg/object_detector_pkg.egg-info/PKG-INFO\n'}
+[10.603975] (-) TimerEvent: {}
+[10.606855] (object_detector_pkg) StdoutLine: {'line': b'writing dependency_links to build/object_detector_pkg/object_detector_pkg.egg-info/dependency_links.txt\n'}
+[10.609139] (object_detector_pkg) StdoutLine: {'line': b'writing entry points to build/object_detector_pkg/object_detector_pkg.egg-info/entry_points.txt\n'}
+[10.611374] (object_detector_pkg) StdoutLine: {'line': b'writing requirements to build/object_detector_pkg/object_detector_pkg.egg-info/requires.txt\n'}
+[10.614469] (object_detector_pkg) StdoutLine: {'line': b'writing top-level names to build/object_detector_pkg/object_detector_pkg.egg-info/top_level.txt\n'}
+[10.629277] (object_detector_pkg) StdoutLine: {'line': b"reading manifest file 'build/object_detector_pkg/object_detector_pkg.egg-info/SOURCES.txt'\n"}
+[10.638334] (object_detector_pkg) StdoutLine: {'line': b"writing manifest file 'build/object_detector_pkg/object_detector_pkg.egg-info/SOURCES.txt'\n"}
+[10.639430] (object_detector_pkg) StdoutLine: {'line': b'running build\n'}
+[10.640756] (object_detector_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.641779] (object_detector_pkg) StdoutLine: {'line': b'copying object_detector_pkg/object_detector.py -> /root/soarm/object_detector_pkg/build/object_detector_pkg/build/lib/object_detector_pkg\n'}
+[10.642474] (object_detector_pkg) StdoutLine: {'line': b'copying object_detector_pkg/arm_controller.py -> /root/soarm/object_detector_pkg/build/object_detector_pkg/build/lib/object_detector_pkg\n'}
+[10.645094] (object_detector_pkg) StdoutLine: {'line': b'running install\n'}
+[10.647027] (object_detector_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.651968] (object_detector_pkg) StdoutLine: {'line': b'copying /root/soarm/object_detector_pkg/build/object_detector_pkg/build/lib/object_detector_pkg/object_detector.py -> /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg\n'}
+[10.653167] (object_detector_pkg) StdoutLine: {'line': b'copying /root/soarm/object_detector_pkg/build/object_detector_pkg/build/lib/object_detector_pkg/arm_controller.py -> /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg\n'}
+[10.664020] (object_detector_pkg) StdoutLine: {'line': b'byte-compiling /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg/object_detector.py to object_detector.cpython-310.pyc\n'}
+[10.673920] (object_detector_pkg) StdoutLine: {'line': b'byte-compiling /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg/arm_controller.py to arm_controller.cpython-310.pyc\n'}
+[10.700045] (object_detector_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.701737] (object_detector_pkg) StdoutLine: {'line': b'copying config/arm_actions.yaml -> /root/soarm/object_detector_pkg/install/object_detector_pkg/share/object_detector_pkg/config\n'}
+[10.703141] (object_detector_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.704070] (-) TimerEvent: {}
+[10.715122] (object_detector_pkg) StdoutLine: {'line': b"removing '/root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.716953] (object_detector_pkg) StdoutLine: {'line': b'Copying build/object_detector_pkg/object_detector_pkg.egg-info to /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/python3.10/site-packages/object_detector_pkg-0.0.0-py3.10.egg-info\n'}
+[10.724944] (object_detector_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.804296] (-) TimerEvent: {}
+[10.863915] (object_detector_pkg) StdoutLine: {'line': b'Installing arm_controller script to /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/object_detector_pkg\n'}
+[10.864985] (object_detector_pkg) StdoutLine: {'line': b'Installing object_detector script to /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/object_detector_pkg\n'}
+[10.865991] (object_detector_pkg) StdoutLine: {'line': b'Installing test_arm_actions script to /root/soarm/object_detector_pkg/install/object_detector_pkg/lib/object_detector_pkg\n'}
+[10.868101] (object_detector_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/soarm/object_detector_pkg/build/object_detector_pkg/install.log'\n"}
+[10.906689] (-) TimerEvent: {}
+[11.007854] (-) TimerEvent: {}
+[11.109504] (-) TimerEvent: {}
+[11.119184] (object_detector_pkg) CommandEnded: {'returncode': 0}
+[11.209688] (-) TimerEvent: {}
+[11.280406] (object_detector_pkg) JobEnded: {'identifier': 'object_detector_pkg', 'rc': 0}
+[11.287560] (-) EventReactorShutdown: {}
